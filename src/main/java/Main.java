@@ -5,7 +5,7 @@ public class Main {
         Bandeau monBandeau = new Bandeau();
         Scenario scenario = new Scenario(monBandeau);
 
-        scenario.ajouterEffet(new Teletype(monBandeau, "Effet Teletype", 200));
+        scenario.ajouterEffet(new Teletype(monBandeau, "Hello, World!", 200));
         scenario.ajouterEffet(new Clignotant(monBandeau, 5, 500));
         scenario.ajouterEffet(new Rotation(monBandeau, 2, 100));
 
